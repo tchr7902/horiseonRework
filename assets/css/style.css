@@ -4,10 +4,12 @@
     margin: 0;
 }
 
+/* sets background color for page */
 body {
     background-color: #d9dcd6;
 }
 
+/* changes color, padding, and font family of header class */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -15,15 +17,18 @@ body {
     color: #ffffff;
 }
 
+/* sets flow style and font size of header class and h1 element */
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/* sets color of following classes and elements */
 .header h1 .seo {
     color: #d9dcd6;
 }
 
+/* adds padding, margin, placement, and font edits to header class and nav element */
 .header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -32,24 +37,29 @@ body {
     font-size: 20px;
 }
 
+/* sets list type for following elements and class */
 .header nav ul {
     list-style-type: none;
 }
 
+/* sets display flow and margins for following elements and class */
 .header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/* sets color and text style to the a element */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* sets font size for p elements */
 p {
     font-size: 16px;
 }
 
+/* sets size, margin, and adds a background to hero class */
 .hero {
     height: 800px;
     width: 100%;
@@ -59,22 +69,26 @@ p {
     background-position: center;
 }
 
+/* adds a class that floats left */
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/* adds a class that floats right */
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
+/* sets width and flow type for content class */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* sets margins, size, color, font, and location for benefits class */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -86,6 +100,7 @@ p {
     background-color: #2589bd;
 }
 
+/* sets margin and color */
 .benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;
@@ -101,6 +116,7 @@ p {
     color: #ffffff;
 }
 
+/* sets margin and text alignment */
 .benefit-lead h3 {
     margin-bottom: 10px;
     text-align: center;
@@ -116,6 +132,7 @@ p {
     text-align: center;
 }
 
+/* sets display flow, margin, and max width */
 .benefit-lead img {
     display: block;
     margin: 10px auto;
@@ -134,6 +151,7 @@ p {
     max-width: 150px;
 }
 
+/* sets margin, size, color, and font for seo class */
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -143,6 +161,7 @@ p {
     color: #ffffff;
 }
 
+/* sets margin, size, color, and font for orm class */
 .online-reputation-management {
     margin-bottom: 20px;
     padding: 50px;
@@ -152,6 +171,7 @@ p {
     color: #ffffff;
 }
 
+/* sets margin, size, color, and font for smm class */
 .social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
@@ -161,6 +181,7 @@ p {
     color: #ffffff;
 }
 
+/* sets height for images */
 .search-engine-optimization img {
     max-height: 200px;
 }
@@ -173,6 +194,7 @@ p {
     max-height: 200px;
 }
 
+/* sets margin and font size for headers */
 .search-engine-optimization h2 {
     margin-bottom: 20px;
     font-size: 36px;
@@ -188,6 +210,7 @@ p {
     font-size: 36px;
 }
 
+/* adds padding, font, and alignment to footer class */
 .footer {
     padding: 30px;
     clear: both;
@@ -195,6 +218,7 @@ p {
     text-align: center;
 }
 
+/* sets font size */
 .footer h2 {
     font-size: 20px;
 }
